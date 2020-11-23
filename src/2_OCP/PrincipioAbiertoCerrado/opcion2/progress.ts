@@ -1,7 +1,7 @@
-import { Measurable } from "./measurable";
+import {Measurable} from './measurable';
 
 export class Progress {
-  public getSentLengthPercentage(measurable: Measurable): number{
-    return measurable.getSentLengthPercentage()
+  public getSentLengthPercentage(measurable: Measurable): number {
+    return measurable.getSentLengthPercentage();
   }
 }

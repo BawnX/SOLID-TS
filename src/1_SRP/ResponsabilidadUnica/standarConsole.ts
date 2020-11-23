@@ -1,5 +1,5 @@
 export class StandardConsole {
-  public printPage(Page: string): void{
-    console.log(Page)
+  public printPage(Page: string): void {
+    console.log(Page);
   }
 }

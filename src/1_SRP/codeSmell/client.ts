@@ -1,8 +1,8 @@
-import { Book } from "./book";
+import {Book} from './book';
 
-class Client {
-  public Client(){
-    const book: Book = new Book()
-    book.printCurrentPage()
+export class Client {
+  public Client() {
+    const book: Book = new Book();
+    book.printCurrentPage();
   }
 }

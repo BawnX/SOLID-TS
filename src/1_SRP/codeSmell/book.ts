@@ -1,11 +1,11 @@
 export class Book {
-  public getTitle(): string{
+  public getTitle(): string {
     return 'Un Gran Libro';
   }
-  public getAuthor(): string{
+  public getAuthor(): string {
     return 'Jhon Doe';
   }
-  public printCurrentPage(): void{
-    console.log('Pagina Actual')
+  public printCurrentPage(): void {
+    console.log('Pagina Actual');
   }
 }

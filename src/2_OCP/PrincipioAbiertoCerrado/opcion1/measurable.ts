@@ -1,4 +1,4 @@
-export interface Measurable{
+export interface Measurable {
   getTotalLength(): number;
   getSentLength(): number;
 }
